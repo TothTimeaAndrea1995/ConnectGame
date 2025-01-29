@@ -2,7 +2,7 @@ public class Main {
     // játéktábla
     private int[][] gameBoard = new int[7][6];
     public static void main(String[] args) {
-       // System.out.println("Hello World!");
+       //System.out.println("Hello World!");
         // Main main = new mainClass();
     }
 
@@ -20,5 +20,5 @@ public class Main {
     //                 System.out.println("Érvénytelen lépészám!");
     //             }
     //         }
-    //     }        
+    //     }
 }
