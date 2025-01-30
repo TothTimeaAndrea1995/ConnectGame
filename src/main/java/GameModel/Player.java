@@ -1,19 +1,45 @@
 package GameModel;
 
 public class Player {
-    private final String name;
-    private final char symbol;
+//    String name;
+//    char symbol;
+    char name;
+    int symbol;
 
-    public Player(String name, char symbol) {
+    public Player(char name, int symbol) {
         this.name = name;
         this.symbol = symbol;
     }
 
-    public String getName() {
+    public char getName() {
         return name;
     }
 
-    public char getSymbol() {
+    public void setName(char name) {
+        this.name = name;
+    }
+
+    public int getSymbol() {
         return symbol;
     }
+
+    public void setSymbol(char symbol) {
+        this.symbol = symbol;
+    }
+
+//    public String getName() {
+//        return name;
+//    }
+//
+//    public void setName(String name) {
+//        this.name = name;
+//    }
+//
+//    public char getSymbol() {
+//        return symbol;
+//    }
+//
+//    public void setSymbol(char symbol) {
+//        this.symbol = symbol;
+//    }
 }
