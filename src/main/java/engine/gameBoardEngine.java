@@ -27,7 +27,7 @@ public class gameBoardEngine {
     public boolean boardFull() {
         boolean emptyBoard = false;
         for(int i=0; i<R; i++) {
-            if (arr[0][i] ==0){
+            if (arr[0][i] == 0){
                 emptyBoard = true;
                 break;
             }
